@@ -153,8 +153,9 @@ const h1 = document.getElementById("Color-name");
 
 btn.addEventListener("click", function () {
   //   const ndrrimiingjyres = ndrrimi();
-  document.body.style.backgroundColor = array[ndrrimi()];
-  h1.innerText = "Ngjyra: " + array[ndrrimi()];
+  const ngjyra = array[ndrrimi()];
+  document.body.style.backgroundColor = ngjyra;
+  h1.innerText = "Color: " + ngjyra;
 });
 
 function ndrrimi() {
